@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+section{
+    width: 100%;
+    height: 100vh;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: white;
+    height: 100px;
+
+
+}
+.logo{
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+
+}
+.hero{
+    background-image: url(nordwood-themes-q8U1YgBaRQk-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    width: 100%;
+    height: 90px;
+    background: #fff;
+}
+.navbar-collapse{
+    background: #fff;
+}
+
+.navbrand-brand{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.nav-link{
+    text-transform: uppercase;
+    color: blue;
+}
+.hero h1{
+    padding-top: 80px;
+    text-align: center;
+    color:red;
+    font-size: 100px;
+    font-weight: bold;
+    margin:  auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+.hero h2{
+ text-align: center;
+ color: #fff;
+ font-weight: bold;
+ font-size: 30px;
+ text-transform: uppercase;
+}
+.hero span{
+    font-weight: 400;
+    color:blue;
+}
+.hero img{
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+.about h3{
+    padding-top: 50px;
+    font-size: 60px;
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+}
+.feature img{
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+    
+}
+
+.about p{
+    color: blue;
+    font-size: 20px;
+    padding: 15px;
+}
+.service h4{
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.service img{
+    width: 300px;
+    height: 300px;
+}
+.service .col p{
+    color: blue;
+}
+.contact h2{
+    text-transform: uppercase;
+    font-size: 45px;
+    text-align: center;
+    color: red;
+    
+}
+.contact img{
+    width: 500px;
+    height: 500px;
+}
+.contact p{
+    color: blue;
+    font-size: 20px;
+
+}
+footer{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    height: 100px}
+    
+
+
+@media (max-width: 576px) { 
+
+    .feature img{
+        width: 280px;
+        height: 280px;
+    }
+}
+
+
+@media (max-width: 768px) { 
+ .feature img{
+        width: 350px;
+        height: 350px;
+    }
+    .about p{
+padding: 0;
+    }
+
+}
+@media (max-width: 862px) { 
+.about p{
+    font-size: 15px;
+}
+.contact img{
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}
+}
+@media (max-width: 992px) { 
+
+ .feature img{
+        width: 400px;
+        height: 400px;
+    }
+
+
+}
